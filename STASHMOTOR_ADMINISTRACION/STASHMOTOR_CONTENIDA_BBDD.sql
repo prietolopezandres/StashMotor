@@ -52,7 +52,7 @@ CREATE USER Prieto
 	DEFAULT_SCHEMA=[dbo]
 GO
 
---Añadimos el usuario que acabos de crear al rol owner--
+--AÃ±adimos el usuario que acabos de crear al rol owner--
 
 ALTER ROLE db_owner
 	ADD MEMBER Prieto
